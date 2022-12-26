@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput, Alert, ScrollView } from 'react-native';
 import estilos from './estilos';
-import { buscaUsuario } from '../../services/requests/usuarios'
+import { buscaUsuario } from '../../services/requests/usuarios';
 
 export default function Principal({ navigation }) {
     const [nomeUsuario, setNomeUsuario] = useState('');
@@ -41,7 +41,13 @@ export default function Principal({ navigation }) {
                     <Text style={estilos.seguidoresTexto}>Seguindo</Text>
                 </View>
             </View>
-            <TouchableOpacity onPress={() => navigation.navigate('Repositorios')}>
+            <TouchableOpacity 
+              onPress={() => 
+                navigation.navigate('Repositorios', {
+                  id: usuario.id
+                })
+              }
+            >
                 <Text style={estilos.repositorios}>
                     Ver os repositórios
                 </Text>

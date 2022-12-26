@@ -10,22 +10,22 @@
       "following": 69
     },
     {
-      "login": "wylkerd",
-      "id": 2,
-      "avatar_url": "https://avatars.githubusercontent.com/u/50023013?v=4",
-      "name": "Wylkerd",
-      "email": "teste@hotmail.com",
-      "followers": 28,
-      "following": 37
-    },
-    {
       "login": "nataliakt",
-      "id": 3,
+      "id": 2,
       "avatar_url": "https://avatars.githubusercontent.com/u/9091491?v=4",
       "name": "Natalia Kelim Thiel",
       "email": "natkelin@hotmail.com",
       "followers": 168,
       "following": 7
+    },
+    {
+      "login": "wylkerd",
+      "id": 3,
+      "avatar_url": "https://avatars.githubusercontent.com/u/50023013?v=4",
+      "name": "Wylkerd",
+      "email": "teste@hotmail.com",
+      "followers": 28,
+      "following": 37
     }
   ],
   "repos": [
@@ -70,6 +70,24 @@
       "name": "Alura_cursos",
       "data": "1 de jan. de 2021",
       "postId": 1
+    },
+    {
+      "id": 2,
+      "name": "alura-pikachu-wyl",
+      "data": "1 de jan. de 2021",
+      "postId": 3
+    },
+    {
+      "id": 3,
+      "name": "alura-react-native-comecando-do-zero-wyl",
+      "data": "1 de jan. de 2021",
+      "postId": 3
+    },
+    {
+      "id": 5,
+      "name": "Alura_cursos-wyl",
+      "data": "1 de jan. de 2021",
+      "postId": 3
     }
   ]
 }
