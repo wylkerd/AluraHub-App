@@ -1,5 +1,17 @@
 import api from "../api";
 
+export async function pegarRepositorioDoUsuarioPeloNome(nomeDoRepositorio) {
+  try {
+    const resultado = await api.get(`/repos?name=${nomeDoRepositorio}`);
+
+    return resultado.data
+  } catch (error) {
+    console.error(error);
+
+    return {}
+  }
+}
+
 export async function pegarRepositoriosDoUsuario(id) {
   try {
     const resultado = await api.get(`/repos?postId=${id}`);
