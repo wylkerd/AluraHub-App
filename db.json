@@ -48,10 +48,10 @@
       "postId": 1
     },
     {
-      "id": 1,
-      "name": "2048evolution",
+      "name": "2048-evolution",
       "data": "1 de jan. de 2021",
-      "postId": 2
+      "postId": 2,
+      "id": 1
     },
     {
       "id": 2,
@@ -99,12 +99,6 @@
       "data": "26 de dezembro",
       "postId": 3,
       "id": 7
-    },
-    {
-      "name": "novo repositório",
-      "data": "26 de dezembro",
-      "postId": 2,
-      "id": 8
     }
   ]
 }
